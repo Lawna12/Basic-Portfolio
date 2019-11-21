@@ -4,6 +4,7 @@
 
 body {
     background: #dddddd;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
@@ -12,11 +13,22 @@ header {
     background: #ffffff;
     padding: 35px;
 }
+
+h1 {
+    padding: 30px;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    
+}
+
 #fixed {
     background: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: fixed;
-    padding: 35px;
+    padding: 23px;
     text-align: center;
     top: 0px;
     left: 400px;
@@ -28,6 +40,7 @@ header {
     width: 960px;
     height: 560px;
     margin: 0 auto 0 auto;
+    margin-top: 30px;
     padding: 20px;
 
 }
@@ -35,16 +48,17 @@ header {
 .Buttons {
     position: fixed;
     background: #ffffff;
-    padding: 35px;
+    padding: 23px;
     text-align: center;   
     top: 0;
     right: 400px;
 }
 
-#port-id {
+#port-pic {
     width: 200px;
     height: 200px;
     float: left;
+    margin: 10px;
 }
 
 footer {
