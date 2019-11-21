@@ -25,7 +25,7 @@ h1 {
     background: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: fixed;
-    padding: 25px;
+    padding: 23px;
     text-align: center;
     top: 0px;
     left: 400px;
@@ -37,6 +37,7 @@ h1 {
     width: 960px;
     height: 560px;
     margin: 0 auto 0 auto;
+    margin-top: 30px;
     padding: 20px;
 
 }
@@ -44,7 +45,7 @@ h1 {
 .Buttons {
     position: fixed;
     background: #ffffff;
-    padding: 35px;
+    padding: 23px;
     text-align: center;   
     top: 0;
     right: 400px;
