@@ -173,16 +173,19 @@ button {
 }
 
 #Full-Name {
-    width: 40%;
+    width: 50%;
+    min-width: 250px
 }
 
 #Email {
-    width: 40%;
+    width: 50%;
+    min-width: 250px
 }
 
 #Message {
-    width: 40%;
+    width: 50%;
     height: 300px;
+    min-width: 250px
 }
 
   /*Portfolio*/
