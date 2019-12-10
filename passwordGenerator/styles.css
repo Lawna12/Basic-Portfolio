@@ -3,8 +3,8 @@
 }
 
 body {
-    background-color: lightcoral;
-    color: #ffffff;
+    background-image: url(https://previews.123rf.com/images/nitr/nitr1604/nitr160400015/55239568-old-locks-keys-scissors-and-vise-on-rusty-background.jpg);
+    color: black;
     display: flex;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     flex-direction: column;
@@ -36,7 +36,7 @@ input[type=checkbox] {
 }
 
 .result-container {
-    background-color: linen;
+    background-color: #ffffff;
     display: flex;
     justify-content: flex-start;
     align-items: center;
