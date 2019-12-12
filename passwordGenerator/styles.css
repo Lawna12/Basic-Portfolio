@@ -37,6 +37,7 @@ input[type=checkbox] {
 
 .result-container {
     background-color: #ffffff;
+    color: black;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -54,6 +55,7 @@ input[type=checkbox] {
 }
 
 .result-container .btn {
+    color: black;
     font-size: 20px;
     position: absolute;
     top: 5px;
@@ -63,12 +65,17 @@ input[type=checkbox] {
 }
 
 .btn {
+    align-content: center;
     border: none;
     color: #ffffff;
     cursor: pointer;
     font-size: 16px;
     padding: 8px 12px;
-    background-color: #3B3B98;
+    background-color: blue;
+}
+
+.btn-large {
+    display: block;
 }
 
 .setting {
@@ -78,3 +85,8 @@ input[type=checkbox] {
     margin: 15px 0;
 }
 
+@media screen and (max-width: 400px) {
+	.result-container {
+		font-size: 14px;
+	}
+}
