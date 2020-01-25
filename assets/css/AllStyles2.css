@@ -172,6 +172,10 @@ button {
     color: #ffffff;
 }
 
+#workbtn {
+    background: #ffffff
+}
+
 #Full-Name {
     width: 50%;
     min-width: 250px
@@ -194,8 +198,10 @@ button {
     position: relative;
     float: left;
     width: 274px;
+    height: 200px;
     margin: 20px 0 25px;
     overflow: auto;
+    border: lightsteelblue solid 1px;
 }
 
 .work:nth-child(even) {
