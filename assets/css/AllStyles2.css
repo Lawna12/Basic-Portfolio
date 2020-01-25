@@ -146,15 +146,6 @@ h1 {
     text-align: right;
     top: 0;
 }
-/* a:hover {
-    background: salmon;
-}
-a:active {
-    background: slategrey;
-}
-a:focus {
-    background: yellow;
-} */
 
    /*About*/
 
@@ -249,4 +240,13 @@ button {
     color: #ffffff;
     padding: 10px;
     border-top: #4aaaa5 solid 5px;
+}
+
+  /* Resume */
+#resume{
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    margin-top: 60px;
+    align-content: center;
 }
