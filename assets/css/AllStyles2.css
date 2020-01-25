@@ -140,13 +140,6 @@ h1 {
 }
 
 
-.Buttons {
-    background: #ffffff;
-    /* padding: 23px; */
-    text-align: right;
-    top: 0;
-}
-
    /*About*/
 
 #port-pic {
@@ -158,7 +151,7 @@ h1 {
 
   /*Contact*/
 
-button {
+.submit {
     background: #4aaaa5;
     color: #ffffff;
 }

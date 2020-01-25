@@ -15,7 +15,7 @@
             <div class="navbar" id="myNavbar">
               <a href="./index.html" id="fixed">Andrew Lawn</a>
                 <div class="dropdown">
-                  <button class="dropbtn">Menu
+                  <button class="dropbtn submit">Menu
                     <i class="fa fa-caret-down"></i>
                   </button>
                   <div class="dropdown-content">
@@ -41,17 +41,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                      <div class="work" id="workImg">
-                        <img src="./assets/images/HeatWaveCT.png">
+                      <div onclick="location.href='https://github.com/shelbypalumbo/Heat-Wave-Crime-Data';" class="work" id="workImg">
+                        <img src="./assets/images/HeatWaveKY.png">
                         <h3>P.1 Heat Wave</h3>
+                        
                       </div>
                     </div>
 
                     <div class="col-md-6">
-                      <div class="work" id="workImg">
+                      <div onclick="location.href='https://lawna12.github.io/dayPlanner/';" class="work" id="workImg">
                         <img src="./assets/images/dayPlanner.jpg">
                         <h3>Day Planner</h3>
-                      </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -59,7 +60,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                      <div class="work" id="workImg">
+                      <div onclick="location.href='https://lawna12.github.io/passwordGenerator/'" class="work" id="workImg">
                         <img src="./assets/images/passGen.jpg">
                         <h3>Password Generator</h3>
                       </div>
@@ -77,14 +78,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">    
-                      <div class="work" id="workImg">
+                      <div onclick="location.href='https://github.com/Lawna12'" class="work" id="workImg">
                         <img src="./assets/images/download.jfif">
-                        <h3>Link to Resume</h3>
+                        <h3>GitHub</h3>
                       </div>
                     </div>
                     
                     <div class="col-md-6">             
-                      <div class="work" id="workImg">
+                      <div onclick="location.href='https://www.linkedin.com/in/andrew-lawn-78a1013b/'" class="work" id="workImg">
                         <img src="./assets/images/linkedinImg.jfif">
                         <h3>linkedin</h3>
                       </div>
@@ -102,6 +103,15 @@
             Copyright &copy;
         </div>
     </div>
+
+    <script>
+    
+    $(".work").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});
+    
+    </script>
     
 </body>
 </html>
