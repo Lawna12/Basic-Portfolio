@@ -188,6 +188,12 @@ h1 {
     border: lightsteelblue solid 1px;
 }
 
+.work:hover {
+    -moz-box-shadow: 0 0 15px #ccc;
+      -webkit-box-shadow: 0 0 15px #ccc;
+      box-shadow: 0 0 15px #ccc;
+}
+
 .work:nth-child(even) {
     margin-right: 40px;
 }
