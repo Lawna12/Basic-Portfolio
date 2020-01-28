@@ -38,23 +38,23 @@
                 <h1>Contact Me</h1>
                 
         
-        <form action="action_page.php">
+        <form action="MAILTO:lawna12@gmail.com" method="POST" enctype="multipar/form-data">
             <label for="Full-Name">Name</label> <br>
-            <input type="text" id="Full-Name" name="fullname" placeholder="Your name..">
+            <input type="text" id="Full-Name" name="fullname" required placeholder="Your name..">
             <br>
             <br>
 
             <label for="Email">Email</label><br>
-            <input type="text" id="Email" name="email" placeholder="example@gmail.com">
+            <input type="email" id="Email" name="email" required placeholder="example@gmail.com">
             <br>
             <br>
 
             <label for="Message">Message</label> <br>
-            <input type="text" id="Message" name="message" placeholder="">
+            <textarea id="Message" name="message" required rows="20" cols="20"></textarea>
             <br>
             <br>
 
-            <button class="submit" type="button">Submit</button>
+            <input type="submit" value="Submit">
 
 
         </form><br>
