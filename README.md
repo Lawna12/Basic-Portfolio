@@ -16,6 +16,7 @@ Collection of my best work!
 - Onclick event listener added to divs on the portfolio page.   
 - Links to GitHub and LinkedIn.
 - Resume page
+- Static page deployed on Heroku
 
 
 
